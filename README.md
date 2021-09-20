@@ -34,9 +34,7 @@
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
+- HTML5 - CSS3 - JavaScript
 - [geo.ipify](https://geo.ipify.org/) - IP Geolocation API
 - [mapbox](https://docs.mapbox.com/) - Maps and location
 
