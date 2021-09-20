@@ -37,6 +37,7 @@
 - HTML5 - CSS3 - JavaScript
 - [geo.ipify](https://geo.ipify.org/) - IP Geolocation API
 - [mapbox](https://docs.mapbox.com/) - Maps and location
+- [leaflet](https://leafletjs.com/index.html) - JS library for mobile-friendly interactive maps
 
 ### Useful resources
 
