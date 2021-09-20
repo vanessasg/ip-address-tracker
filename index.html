@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IP Address Tracker | vanessasg</title>
+
+  <!-- leafletjs css -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <!-- leaflet js (make sure you put this AFTER Leaflet's CSS) -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>IP Address Tracker</h1>
+    <form action="" id="ip">
+      <input type="text" id="searchip" name='ipaddress' placeholder="Search for any IP address" value="">
+      <button id="search-btn"><img src="./images/icon-arrow.svg" alt=""> </button>
+    </form>
+  </div>
+
+  <div class="main">
+    <div class="details-section">
+      <div class="detail-item">
+        <p>IP Address</p>
+        <h2 id="ip-item"></h2>
+      </div>
+
+      <div class="detail-item">
+        <p>Location</p>
+        <h2 id="location-item"></h2>
+      </div>
+
+      <div class="detail-item">
+        <p>Timezone</p>
+        <h2 id="timezone-item"></h2>
+      </div>
+
+      <div class="detail-item">
+        <p>ISP</p>
+        <h2 id="isp-item"></h2>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="map-section">
+    <div id="mapid"></div>
+  </div>
+  
+  <div class="attribution">
+    Coded by <a href="https://github.com/vanessasg">vanessasg</a>.
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
